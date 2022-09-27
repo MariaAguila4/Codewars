@@ -1,7 +1,12 @@
+from collections import Counter
+
 def count(string):
     string.lower()
-    for i in string:
-        i.count()
-    return
+    freq_count = Counter(string)
+    new = str(freq_count).split("(")
+    a = new[1].replace(")", "")
 
-print(count('aba'), {'a': 2, 'b': 1})
+    print(type(freq_count))
+    return a
+
+print(count('aba'))

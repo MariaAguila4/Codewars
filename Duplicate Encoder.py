@@ -29,3 +29,4 @@ text = "Success"
 text = "(( @"
 text = "  ( ( )"
 print(duplicate_encode(text))
+print(duplicate_encode_NoXutaBE(text))
