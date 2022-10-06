@@ -36,6 +36,7 @@ print("Mean is :", mean, "median is:", median, "mode is:", mode)
 
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 import numpy as np
+""""
 from collections import Counter
 
 size = int(input())
@@ -83,3 +84,10 @@ def my_mode(sample):
 print(my_mean(numbers))
 print(my_median(numbers))
 print(my_mode(numbers))
+"""
+def sortme(names):
+    for i in names:
+
+    return names.sort()
+
+print(sortme(["one", "two", "three"]))
