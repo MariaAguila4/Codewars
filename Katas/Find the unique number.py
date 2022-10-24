@@ -5,4 +5,14 @@ def find_uniq(arr):
             return i
 
 
-print(find_uniq([ 1, 1, 1, 2, 1, 1 ]))
+#print(find_uniq([ 1, 1, 1, 2, 1, 1 ]))
+
+def pepe(string):
+    pepe =string.split(" ")
+    print(pepe)
+    pop= []
+    for i in range(len(pepe)):
+        pop.append(upper())
+        print(pop)
+    return pop
+print(pepe("hello words pepe"))
